@@ -86,6 +86,7 @@ class WGCfg():
             PrivateKey = {peerdata['PrivateKey']}
             # PublicKey = {public_key}
             Address = {peerdata['Address']}
+            DNS = 1.1.1.1, 9.9.9.9, 8.8.8.8
             
             [Peer]
             Endpoint = {endpoint}
